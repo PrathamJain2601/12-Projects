@@ -1,0 +1,94 @@
+.main::-webkit-scrollbar {
+    width: 10px;
+}
+.main::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.main::-webkit-scrollbar-thumb {
+    background: #888;
+}
+.main::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background: url("todo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main {
+    height: auto;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-height: 80vh;
+    overflow-y: scroll;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10px 30px 30px 30px;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+.header h1 {
+    font-weight: 600;
+    padding: 10px;
+}
+
+.header input {
+    width: 83%;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.header button {
+    width: 10%;
+    font-size: 1.2rem;
+    padding: 10px;
+    cursor: pointer;
+    float: right;
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.row {
+    width: 100%;
+    font-size: 0px;
+    margin-top: 20px;
+}
+
+.row u {
+    font-size: 1.5rem;
+    padding: 10px;
+    display: inline-block;
+    width: 70%;
+    text-decoration: none;
+}
+
+.row span {
+    cursor: pointer;
+}
+
+.row span i {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-left: 9px;
+    border: 2px solid black;
+}

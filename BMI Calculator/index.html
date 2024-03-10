@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Body Mass Index</h1>
+        <div>
+        <label for="weight">Weight (Kg)</label>
+        <input type="weight" id="weight">
+        </div>
+        <div>
+        <label for="weight">Height (Cm)</label>
+        <input type="height" id="height">
+        </div>
+        <input type="submit" value="calculate" onclick="calc()">
+        <div class="result">
+            <div class="bar animate"></div>
+        </div>
+        <div class="report">
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
